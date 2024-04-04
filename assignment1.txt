@@ -1,0 +1,32 @@
+● What is Emmet?
+Emmet help you write repititive code like tables, list and other ordered elements using minimal code
+
+● Difference between a Library and Framework?
+it can be visualised using a house metaphor
+A liberary is like going to IKEA. you already have a house but you need furniture. you don't feel like building table from scratch so IKEA allows you to take modular components for your house
+A Framework is a like a house, you have a blueprint and limited choices when it comes to architecture and design
+
+In technical terms it can be called as inversion of control
+when you use the liberary you are incharge of the flow of the application. you are injecting liberary code to the project
+whereas in Framework, it is incharge of the flow. It allows you to place the code in flow, but it calls the flow.
+
+● What is CDN? Why do we use it?
+CDN are group of georgraphically distributed servers which deliver content to the user based on their location, reducing latency
+
+● Why is React known as React?
+It is named as such because it "reacts" quickly to the changes rather than reloading the whole page.
+it uses virtual DOM to efficiently update parts of the web page.
+
+● What is crossorigin in script tag?
+crossorigin refers to the  CORS (Cross-Origin Resource Sharing) policy for loading resources from another domain.
+it is used for <audio>, <img>, <link> defining how element uses CORS support
+This attribute allows web applications to make requests across domains with more security.
+
+● What is diference between React and ReactDOM
+React is the liberary which gives access to inbuilt functionaliy of React and handles the logic
+ReactDOM gives the ability to rendering the components of react in HTML (in browser's DOM)
+
+● What is difference between react.development.js and react.production.js files via CDN?
+React production offers minified version of the same code present in dev, for better loading of React library on client side.
+
+● What is async and defer?
