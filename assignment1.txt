@@ -30,3 +30,7 @@ ReactDOM gives the ability to rendering the components of react in HTML (in brow
 React production offers minified version of the same code present in dev, for better loading of React library on client side.
 
 ● What is async and defer?
+These are the boolean attributes in script tag
+in Normal flow: HMTL parsing is going on -> then paused -> script is fectched from server -> script is Executed -> HTML parsing resumes
+in async flow : HMTL parsing is going on -> script is fectched from server -> HTML parsing paused -> script is Executed -> HTML parsing resumes
+in defer flow : HMTL parsing is going on -> script is fectched from server -> script is Executed => HTML parsing never pauses
